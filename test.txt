@@ -1,3 +1,0 @@
-pf pop deets real-bridges <class 'str'>
-pf docuemnt deets {'start': 1459816083000000000, 'end': 1459816101085938000, 'structures': ['documentation-bridge'], 'name': 'real-bridges', 'channels': [{'name': 'acceleration', 'type': 'acceleration', 'unit': 'm/s^2'}]} <class 'dict'>
-Getting returned from @authenticate_request(pathfinder-browse)ef population_details(population): <Response 256 bytes [200 OK]>
