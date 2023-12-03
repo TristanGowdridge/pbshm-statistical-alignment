@@ -5,3 +5,7 @@ Obviously you'll need to clone this and add it to your flask core installation a
 All the data should be inside the folder transferlearning/OfflineData
 
 I think the only package I added was numpy, but if ive missed some im sorry. I didnt want to include all the pip freeze.
+
+
+# Things to address
+Adapting the domains doesn't actually line them up?? 
