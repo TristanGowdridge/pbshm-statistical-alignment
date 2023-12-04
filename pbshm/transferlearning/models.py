@@ -46,12 +46,12 @@ class NormalConditionAlignment(BaseTL):
         self.Xs_standardised = (Xs - np.mean(Xs, axis=0)) / np.std(Xs, axis=0)
         
         # Statistics for the source normal condition data.
-        self.Xs_nc = Xs[np.where(ys == 0)[0], :]
+        self.Xs_nc = self.Xs_standardised[np.where(ys == 0)[0], :]
         self.Xs_nc_mean = np.mean(self.Xs_nc, axis=0)
         self.Xs_nc_std = np.std(self.Xs_nc, axis=0)
         
         # Statistics for the target normal condition data.
-        self.Xt_nc = Xs[np.where(yt == 0)[0], :]
+        self.Xt_nc = Xt[np.where(yt == 0)[0], :]
         self.Xt_nc_mean = np.mean(self.Xt_nc, axis=0)
         self.Xt_nc_std = np.std(self.Xt_nc, axis=0)
     
