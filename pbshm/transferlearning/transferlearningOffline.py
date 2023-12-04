@@ -395,7 +395,7 @@ def population_browse(population):
                     for channel in datum["channels"]:
                         if channel["name"] == "label":
                             temporary_label = channel["value"]
-                            if startTimestampLeft <= datum["timestamp"] <= endTimestampLeft:
+                            if startTimestampRight <= datum["timestamp"] <= endTimestampRight:
                                 temporary_label = 0
                             target_labels.append(temporary_label)
                         else:
